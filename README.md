@@ -1,6 +1,6 @@
-# A Projekti kirjeldus
+# Projekti kirjeldus
 
-## A See projekt on kalkulaator, mis koosneb kolmest failist:
+## See projekt on kalkulaator, mis koosneb kolmest failist:
 
 1. kalkulaator.html – kalkulaatori HTML-märgend.
 
@@ -8,7 +8,7 @@
 
 3. kalkScript.js – skript kalkulaatori funktsionaalsusega.
 
-## A Projekti eesmärk
+## Projekti eesmärk
 
 Rakendada kalkulaatori täielik funktsionaalsus, kirjutades faili kalkScript.js funktsioonid matemaatiliste tehete jaoks: liitmine, lahutamine, korrutamine ja jagamine.
 
