@@ -26,7 +26,9 @@ Rakendada kalkulaatori täielik funktsionaalsus, kirjutades faili kalkScript.js 
 
 2. Tagada kasutajaliidese korrektne uuendamine andmete sisestamisel.
 
-3. Lisada css 
+3. Lisada css
+
+4. lisada veel 2 nuppu, mille abil saab astmes arvu püstitada ja juur numbrist välja võtta 
 
 ## A Täiendavalt
 
