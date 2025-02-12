@@ -18,13 +18,13 @@ Rakendada kalkulaatori täielik funktsionaalsus, kirjutades faili kalkScript.js 
 
 2. Rakendada funktsioonid:
 
-* add(a, b) – liitmine.
+* liitmine.
 
-* subtract(a, b) – lahutamine.
+* lahutamine.
 
-* multiply(a, b) – korrutamine.
+* korrutamine.
 
-* divide(a, b) – jagamine (kontrollides nulliga jagamist).
+* jagamine (kontrollides nulliga jagamist).
 
 3. Tagada kasutajaliidese korrektne uuendamine andmete sisestamisel ja nuppude vajutamisel.
 
