@@ -14,9 +14,7 @@ Rakendada kalkulaatori täielik funktsionaalsus, kirjutades faili kalkScript.js 
 
 ## Peamised ülesanded
 
-1. Lisada kasutaja sisendi töötlemine.
-
-2. Rakendada funktsioonid:
+1. Rakendada funktsioonid:
 
 * liitmine.
 
@@ -26,15 +24,9 @@ Rakendada kalkulaatori täielik funktsionaalsus, kirjutades faili kalkScript.js 
 
 * jagamine (kontrollides nulliga jagamist).
 
-3. Tagada kasutajaliidese korrektne uuendamine andmete sisestamisel ja nuppude vajutamisel.
+2. Tagada kasutajaliidese korrektne uuendamine andmete sisestamisel.
 
-## A Projekti käivitamine
-
-1. Avada kalkulaator.html brauseris.
-
-2. Veenduda, et kalkStyle.css ja kalkScript.js failid on ühendatud.
-
-3. Kontrollida kõigi tehete korrektset toimimist.
+3. Lisada css 
 
 ## A Täiendavalt
 
