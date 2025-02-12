@@ -7,8 +7,13 @@ document.addEventListener("DOMContentLoaded", function () {
         const val1 = parseFloat(num1.value);
         const val2 = parseFloat(num2.value);
 
-        if (isNaN(val1) || isNaN(val2)) {
-            vastus.textContent = "Palun sisesta numbrid!";
+        if (isNaN(val1)) {
+            vastus.textContent = "Palun sisesta esimene number!";
+            return;
+        }
+
+        if (operator !== "√" && isNaN(val2)) {
+            vastus.textContent = "Palun sisesta teine number!";
             return;
         }
 
@@ -26,6 +31,12 @@ document.addEventListener("DOMContentLoaded", function () {
             case '/':
                 result = val2 !== 0 ? val1 / val2 : "Viga: jagamine nulliga!";
                 break;
+            case '√':
+                result = val1 >= 0 ? Math.sqrt(val1) : "Viga: negatiivne arv!";
+                break;
+            case 'step':
+                num1.value = val1 + 1;
+                return;
             default:
                 result = "Tundmatu operatsioon";
         }
@@ -33,10 +44,10 @@ document.addEventListener("DOMContentLoaded", function () {
         vastus.textContent = `Tulemus: ${result}`;
     }
 
-    // Привязываем кнопки к функции calculate
+    // Обработчики событий для кнопок
     document.querySelectorAll("button").forEach(button => {
         button.addEventListener("click", function () {
-            calculate(this.textContent);
+            calculate(this.dataset.op);
         });
     });
 
@@ -44,12 +55,12 @@ document.addEventListener("DOMContentLoaded", function () {
     [num1, num2].forEach(input => {
         input.addEventListener("input", function () {
             if (document.querySelector("button.active")) {
-                calculate(document.querySelector("button.active").textContent);
+                calculate(document.querySelector("button.active").dataset.op);
             }
         });
     });
 
-    // Добавляем выделение активной кнопки
+    // Выделение активной кнопки
     document.querySelectorAll("button").forEach(button => {
         button.addEventListener("click", function () {
             document.querySelectorAll("button").forEach(btn => btn.classList.remove("active"));
@@ -57,5 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+
 
 

@@ -2,27 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <script src="kalkScript.js"></script>
+    <title>Lihtne Kalkulator</title>
+    <script src="kalkScript.js" defer></script>
     <link rel="stylesheet" href="kalkStyle.css">
 </head>
 <body>
 <div id="kalk4">
-    <h2>lihtne kalkulator</h2>
-    <label>sisesta numbrid:</label>
+    <h2>Lihtne Kalkulator</h2>
+    <label>Sisesta numbrid:</label>
     <input type="number" id="num1">
     <input type="number" id="num2">
     <br>
     <label>Vali mida teha:</label>
     <br>
-    <button onclick="calculate('+')">+</button>
-    <button onclick="calculate('-')">-</button>
+    <button data-op="+">+</button>
+    <button data-op="-">-</button>
     <br>
-    <button onclick="calculate('*')">*</button>
-    <button onclick="calculate('/')">/</button>
+    <button data-op="*">*</button>
+    <button data-op="/">/</button>
+    <br>
+    <button data-op="step">+1</button>
+    <button data-op="√">√</button>
 
     <div id="vastus4"></div>
-
 </div>
 </body>
 </html>
