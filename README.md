@@ -28,7 +28,9 @@ Rakendada kalkulaatori täielik funktsionaalsus, kirjutades faili kalkScript.js 
 
 3. Lisada css
 
-4. lisada veel 2 nuppu, mille abil saab astmes arvu püstitada ja juur numbrist välja võtta 
+4. lisada veel 2 nuppu, mille abil saab astmes arvu püstitada ja juur numbrist välja võtta
+
+5. lisa funktsioon, mis toob foto välja, kui inimene proovib nulli jagada 
 
 ## Täiendavalt
 
