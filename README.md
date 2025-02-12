@@ -30,6 +30,6 @@ Rakendada kalkulaatori täielik funktsionaalsus, kirjutades faili kalkScript.js 
 
 4. lisada veel 2 nuppu, mille abil saab astmes arvu püstitada ja juur numbrist välja võtta 
 
-## A Täiendavalt
+## Täiendavalt
 
 Vajadusel võib täiustada kasutajaliidest, lisada vigade käsitlemise ja toetada täiendavaid matemaatilisi funktsioone.
