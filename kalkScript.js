@@ -20,7 +20,11 @@ function calculate(operation) {
             result = num1 * num2;
             break;
         case "/":
-            result = num2 !== 0 ? num1 / num2 : "Viga: nulliga jagamine!";
+            if (num2 === 0) {
+                stupid();
+                return;
+            }
+            result = num1 / num2;
             break;
         case "^":
             result = Math.pow(num1, num2);
@@ -41,3 +45,9 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+// Funktsioon pildi kuvamiseks 0-ga jagamisel
+function stupid() {
+    let resultElement = document.getElementById("vastus4");
+    resultElement.innerHTML = '<img src="2head.gif" alt="Viga: nulliga jagamine!" width="200">';
+}
