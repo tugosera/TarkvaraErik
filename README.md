@@ -30,7 +30,11 @@ Rakendada kalkulaatori täielik funktsionaalsus, kirjutades faili kalkScript.js 
 
 4. lisada veel 2 nuppu, mille abil saab astmes arvu püstitada ja juur numbrist välja võtta
 
-5. lisa funktsioon, mis toob foto välja, kui inimene proovib nulli jagada 
+5. lisa funktsioon, mis toob foto välja, kui inimene proovib nulli jagada
+
+6. lisa nupp, mis poeb pilti välja võtma
+
+7. 
 
 ## Täiendavalt
 
