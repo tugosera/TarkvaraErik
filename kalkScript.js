@@ -51,3 +51,9 @@ function stupid() {
     let resultElement = document.getElementById("vastus4");
     resultElement.innerHTML = '<img src="2head.gif" alt="Viga: nulliga jagamine!" width="200">';
 }
+
+// Nupp, mis poeb pilti välja võtma
+function peida() {
+    let resultElement = document.getElementById("vastus4");
+    resultElement.innerHTML = '';
+}
